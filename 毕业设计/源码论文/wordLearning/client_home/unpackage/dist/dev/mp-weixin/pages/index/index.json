@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "mm_warp": "/components/mm_vue_ui/base/mm_warp",
+    "mm_container": "/components/mm_vue_ui/base/mm_container",
+    "mm_row": "/components/mm_vue_ui/base/mm_row",
+    "mm_col": "/components/mm_vue_ui/base/mm_col",
+    "mm_view": "/components/mm_vue_ui/base/mm_view",
+    "bar_title": "/components/diy/bar_title",
+    "list_ad": "/components/diy/list_ad",
+    "list_menu": "/components/diy/list_menu",
+    "list_goods": "/components/diy/list_goods",
+    "list_article": "/components/diy/list_article",
+    "list_link": "/components/diy/list_link",
+    "swiper_img": "/components/diy/swiper_img",
+    "swiper_notice": "/components/diy/swiper_notice"
+  }
+}

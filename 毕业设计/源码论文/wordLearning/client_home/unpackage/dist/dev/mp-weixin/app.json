@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comment/edit",
+    "pages/web/index",
+    "pages/media/music",
+    "pages/media/image",
+    "pages/media/video",
+    "pages/account/forgot",
+    "pages/account/login",
+    "pages/account/register",
+    "pages/article/list",
+    "pages/article/details",
+    "pages/forum/index",
+    "pages/forum/list",
+    "pages/forum/details",
+    "pages/goods/list",
+    "pages/goods/details",
+    "pages/cart/index",
+    "pages/cart/list",
+    "pages/message/edit",
+    "pages/message/list",
+    "pages/notice/list",
+    "pages/notice/details",
+    "pages/order/index",
+    "pages/order/list",
+    "pages/order/details",
+    "pages/user/index",
+    "pages/user/password",
+    "pages/user/info",
+    "pages/user/collect",
+    "pages/user/address",
+    "pages/user/address_edit",
+    "pages/test/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "长盛",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#3388FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/home_a.png",
+        "selectedIconPath": "static/img/home_b.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "订单",
+        "iconPath": "static/img/order_a.png",
+        "selectedIconPath": "static/img/order_b.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "static/img/cart_a.png",
+        "selectedIconPath": "static/img/cart_b.png"
+      },
+      {
+        "pagePath": "pages/forum/index",
+        "text": "社区",
+        "iconPath": "static/img/forum_a.png",
+        "selectedIconPath": "static/img/forum_b.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/img/my_a.png",
+        "selectedIconPath": "static/img/my_b.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

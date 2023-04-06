@@ -1,0 +1,24 @@
+
+.uni-collapse.data-v-b227d520 {
+	background-color: inherit;
+}
+.pager.data-v-b227d520 {
+	margin-top: 1rem;
+}
+.top_handle.data-v-b227d520 {
+	position: relative;
+	height: 2.6rem;
+	width: 100%;
+}
+.dropdown_box.data-v-b227d520 {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: absolute;
+	z-index: 1000;
+}
+.dropdown_goods.data-v-b227d520 {
+	line-height: 40px;
+}
+

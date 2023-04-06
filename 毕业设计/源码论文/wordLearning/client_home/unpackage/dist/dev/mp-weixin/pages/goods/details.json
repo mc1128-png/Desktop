@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "产品详情",
+  "usingComponents": {
+    "mm_warp": "/components/mm_vue_ui/base/mm_warp",
+    "mm_container": "/components/mm_vue_ui/base/mm_container",
+    "mm_row": "/components/mm_vue_ui/base/mm_row",
+    "mm_col": "/components/mm_vue_ui/base/mm_col",
+    "mm_view": "/components/mm_vue_ui/base/mm_view",
+    "div_goods": "/components/diy/div_goods",
+    "list_comment": "/components/diy/list_comment",
+    "bar_title": "/components/diy/bar_title",
+    "bar_buy": "/components/diy/bar_buy"
+  }
+}

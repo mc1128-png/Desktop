@@ -1,0 +1,15 @@
+
+#article_details .bar_title {
+	background: none;
+}
+#article_details .recommend {
+	background-color: #fff;
+	overflow: hidden;
+}
+#article_details .link {
+	text-align: center;
+	padding: 0.5rem 0;
+	border: 1px solid #DBDBDB;
+	border-radius: 0.5rem;
+}
+

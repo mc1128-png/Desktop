@@ -1,0 +1,50 @@
+
+.wt-tabs {
+	box-sizing: border-box;
+	overflow: hidden;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+.wt-tabs__container {
+	position: relative;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wt-tabs__container-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	height: 100%;
+	position: relative;
+	z-index: 10;
+	/* padding: 0 11px; */
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	white-space: nowrap;
+}
+.wt-tabs__container-line {
+	position: absolute;
+	bottom: 0;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.wt-tabs__container-pills {
+	position: absolute;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	z-index: 9;
+}
+
