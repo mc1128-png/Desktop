@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "评论",
-  "usingComponents": {
-    "t-color-picker": "/components/diy/t-color-picker"
-  }
-}
