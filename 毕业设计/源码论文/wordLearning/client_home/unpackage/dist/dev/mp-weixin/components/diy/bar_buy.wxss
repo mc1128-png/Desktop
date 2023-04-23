@@ -1,0 +1,71 @@
+
+.bar_buy {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: var(--color_white);
+	border: 1px solid #eee;
+}
+.left_block {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: space-evenly;
+	-webkit-justify-content: space-evenly;
+	        justify-content: space-evenly;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.left_block>navigator {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.left_block text {
+	color: var(--color_grey);
+	font-size: 0.5rem;
+	padding-left: 0.1rem;
+}
+.right_block {
+	color: #fff;
+	padding: 0.5rem;
+}
+.right_block .btns {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-radius: 1rem;
+	overflow: hidden;
+}
+.right_block .btns>view{
+	height: 2rem;
+	line-height: 2rem;
+	padding: 0 0.7rem;
+}
+.addCart {
+	background-color: var(--color_orange);
+}
+.buy {
+	background-color: var(--color_red);
+}
+

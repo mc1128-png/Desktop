@@ -1,0 +1,1 @@
+<view class="{{['mm_col'+this.wh]}}"><slot></slot></view>

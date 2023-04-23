@@ -1,0 +1,17 @@
+
+.page_goods {
+	padding-bottom: 3rem;
+}
+.link {
+	text-align: center;
+	padding: 0.5rem 0;
+	border: 1px solid #DBDBDB;
+	border-radius: 0.5rem;
+}
+.buy_wrap {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+

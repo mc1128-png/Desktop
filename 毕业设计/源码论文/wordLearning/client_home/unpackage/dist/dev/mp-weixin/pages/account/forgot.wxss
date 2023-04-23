@@ -1,0 +1,42 @@
+
+#account_forgot .row{
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+#account_forgot .btn_forgot {
+	margin-top: 3rem;
+	text-align: center;
+	padding: var(--padding_small);
+	background-color: var(--color_blue);
+	color: var(--color_white);
+	border-radius: var(--radius_small);
+}
+#account_forgot .prove_code {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+#account_forgot .prove {
+	border: 1px solid var(--color_blue);
+	height: 2.25rem;
+	padding: 0 var(--padding_mini);
+	line-height: 2.25rem;
+	border-left: 0px;
+	color: #FFFFFF;
+	background-color: var(--color_blue);
+	border-radius: var(--radius_small);
+	font-size: var(--font_small);
+}
+#account_forgot .title {
+	color: var(--color_primary_h);
+	padding-bottom: var(--padding_mini);
+	border-bottom: 2px solid var(--color_dark);
+	font-size: var(--font_big);
+	margin-bottom: var(--margin_base);
+}
+
+

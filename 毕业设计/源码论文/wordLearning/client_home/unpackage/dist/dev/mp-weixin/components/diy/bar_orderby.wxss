@@ -1,0 +1,38 @@
+
+.bar_orderby {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bar_orderby .text {
+	font-size: 1rem;
+	font-weight: 400;
+	color: #666666;
+	margin-right: 0.5rem;
+}
+.bar_orderby .icon_up {
+	margin-bottom: 0.125rem;
+}
+.bar_orderby .triangle {
+	display: block;
+	border-style: solid;
+}
+.bar_orderby .icon_up .triangle {
+	border-color: transparent transparent #ccc;
+}
+.bar_orderby .icon_up.active .triangle {
+	border-color: transparent transparent #334F99;
+}
+.bar_orderby .icon_down .triangle {
+	border-color: #ccc transparent transparent;
+}
+.bar_orderby .icon_down.active .triangle {
+	border-color: #334F99 transparent transparent;
+}
+
