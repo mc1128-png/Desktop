@@ -1,1 +1,0 @@
-<view class="list_ad"><block wx:for="{{list}}" wx:for-item="o" wx:for-index="i" wx:key="i"><block wx:if="{{o[vm.location]===location}}"><rich-text class="ad" nodes="{{o[vm.content]}}"></rich-text></block></block></view>
